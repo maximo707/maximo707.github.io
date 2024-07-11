@@ -1,10 +1,74 @@
 [
-    {
-        "id": 1,
-        "nombre": "Producto",
-        "descripcion": "Descripción del producto",
-        "precio": 0,
-        "imagen": "images/producto-de-ejemplo.jpg",
-        "categoría": "Nombre de la categoría"
-    }
+  {
+    "nombre": "In Rainbows",
+    "artista": "Radiohead",
+    "precio": 50000,
+    "imagen": "images/disco-2.png",
+    "genero": "Rock",
+    "detalle": "In Rainbows es el séptimo álbum de Radiohead, lanzado en 2007, conocido por su innovación musical y letras introspectivas que exploran temas como el amor y la alienación en la era moderna."
+  },
+  {
+    "nombre": "Physical Graffiti",
+    "artista": "Led Zeppelin",
+    "precio": 60000,
+    "imagen": "images/disco-1.png",
+    "genero": "Rock",
+    "detalle": "el sexto disco de Led Zeppelin los muestra de una forma mas creativa y expresiva, experimentando con gran variedad de sonidos e instrumentos poco frecuentes para esa epoca."
+  },
+  {
+    "nombre": "Revolver",
+    "artista": "The Beatles",
+    "precio": 50000,
+    "imagen": "images/disco-3.png",
+    "genero": "Rock",
+    "detalle": "Considerado uno de los mejores álbumes de todos los tiempos, 'Revolver' muestra a The Beatles en su máxima creatividad, fusionando rock, pop, psicodelia y elementos de música clásica."
+  },
+  {
+    "nombre": "Kind of Blue",
+    "artista": "Miles Davis",
+    "precio": 50000,
+    "imagen": "images/disco-4.png",
+    "genero": "Jazz",
+    "detalle": "Un hito en la historia del jazz, este álbum es famoso por sus melodías modales y su atmósfera tranquila y reflexiva. Es una obra maestra que ha influenciado a innumerables músicos."
+  },
+  {
+    "nombre": "A Love Supreme",
+    "artista": "John Coltrane",
+    "precio": 70000,
+    "imagen": "images/disco-5.png",
+    "genero": "Jazz",
+    "detalle": "Un álbum espiritual y trascendental de John Coltrane, considerado uno de los mejores trabajos de jazz de todos los tiempos. Es una suite en cuatro partes que refleja la búsqueda personal de Coltrane por la iluminación."
+  },
+  {
+    "nombre": "Head Hunters",
+    "artista": "Herbie Hancock",
+    "precio": 70000,
+    "imagen": "images/disco-6.png",
+    "genero": "Jazz",
+    "detalle": "Este álbum innovador mezcla el jazz con el funk y la música electrónica, creando un sonido único y vanguardista. Es conocido por su uso pionero de los sintetizadores y el clavinet."
+  },
+  {
+    "nombre": "Thriller",
+    "artista": "Michael Jackson",
+    "precio": 60000,
+    "imagen": "images/disco-7.png",
+    "genero": "Pop",
+    "detalle": "El álbum más vendido de todos los tiempos, 'Thriller' combina pop, rock y R&B, y presenta algunos de los mayores éxitos de Michael Jackson, incluyendo 'Billie Jean', 'Beat It' y la canción homónima."
+  },
+  {
+    "nombre": "True Blue",
+    "artista": "Madonna",
+    "precio": 50000,
+    "imagen": "images/disco-8.png",
+    "genero": "Pop",
+    "detalle": "Este álbum consolidó a Madonna como una superestrella global, con una mezcla de pop y dance. Incluye éxitos como 'Papa Don't Preach', 'Open Your Heart' y 'La Isla Bonita'."
+  },
+  {
+    "nombre": "Fearless",
+    "artista": "Taylor Swift",
+    "precio": 40000,
+    "imagen": "images/disco-9.png",
+    "genero": "Pop",
+    "detalle": "Un álbum que ayudó a catapultar a Taylor Swift a la fama, 'Fearless' fusiona country y pop con letras emotivas y personales. Incluye éxitos como 'Love Story' y 'You Belong with Me'."
+  }
 ]
