@@ -1,49 +1,57 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <!-- Reemplazar por los datos que correspondan -->
-        <title>Programación I | Parcial 2 | APELLIDO/S</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="styles.css" />
-        <script src="index.js"></script>
-    </head>
-    <body>
-        <header>
-            <!-- Reemplazar por los datos que correspondan -->
-            <h1>Programación I | Parcial 2 | APELLIDO/S | Mi carrito</h1>
-        </header>
-        <main>
-            <!-- Este es un ejemplo de contenedor de carrito -->
-            <div id="carrito">
-                <p><span>0</span> ítems agregados</p>
-                <p>$<span>0</span> es el total</p>
-                <!-- Estos filtros pueden ser links, botones, menu desplegable. Sugiero generarlos dinamicamente -->
-                <p>Filtrar por <a href="#">Categoría 1</a> | <a href="#">Categoría 2</a> | <a href="#">Categoría 3</a></p>
-                <button>Ver carrito</button>
-            </div>
-            <h2>Productos</h2>
-            
-            <div id="productos">
-                <!-- Aca irian los productos -->
-            </div>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programación I | Parcial 2 | MENDEZ</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
 
-        </main>
+  <body>
+    <header>
+      <!-- Reemplazar por los datos que correspondan -->
+      <h1>Programación I | Parcial 2 | MENDEZ</h1>
+    </header>
 
-        <footer>
-            <ul>
-                <li>Profesor Fabrizio Carlassara</li>
-                <li>
-                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
-                </li>
-                <li>Programación 1</li>
-                <li>
-                    <!-- Reemplazar por el link del repositorio de GitHub -->
-                    <a href="#">URL del repo de GitHub</a>
-                </li>
-            </ul>
-        </footer>
-        
+    <div class="container mt-4">
+      <h1 class="mb-4">Tienda de Discos</h1>
+      <div id="filtros" class="mb-4"></div>
+      <div class="row" id="discos"></div>
+      <button class="btn btn-info mt-4" onclick="verDetalleCarrito()">
+        Ver Carrito
+      </button>
+      <div id="carrito" class="row mt-4"></div>
+    </div>
+
+    <footer>
+      <ul>
+        <li>Profesor Fabrizio Carlassara</li>
+        <li>
+          <a
+            href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre"
+            target="_blank"
+            >fabrizio.carlassara@davinci.edu.ar</a
+          >
+        </li>
+        <li>Programación 1</li>
+        <li>
+          <!-- Reemplazar por el link del repositorio de GitHub -->
+          <a href="#">URL del repo de GitHub</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
+
     </body>
 </html>
